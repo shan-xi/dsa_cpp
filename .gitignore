@@ -1,4 +1,4 @@
-# Prerequisites
+#a Prerequisites
 *.d
 
 # Compiled Object files
@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+
+#xcode specific
+build/*
+*.pbxuser
+*.mode2v3
+*.mode1v3
+*.perspective
+*.perspectivev3
+*~.nib
+
+#ignore private workspace stuff added by Xcode4
+xcuserdata
+project.xcworkspace
+project.pbxproj
