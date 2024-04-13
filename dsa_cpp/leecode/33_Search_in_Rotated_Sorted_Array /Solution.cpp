@@ -47,41 +47,42 @@ public:
     }
 };
 
-int main() {
-    // Create an instance of the Solution class
-    Solution solution;
+//int main() {
+//    // Create an instance of the Solution class
+//    Solution solution;
+//
+//    // Create a vector of integers
+//    std::vector<int> nums = {4, 5, 6, 7, 0, 1, 2};
+//
+//    // Define the target element to search for
+//    int target = 0;
+//
+//    // Call the search function and print the result
+//    int result = solution.search(nums, target);
+//    std::cout << "Index of target element: " << result << std::endl;
+//    
+//    
+//    // Create a vector of integers
+//    nums = {4,5,6,7,0,1,2};
+//
+//    // Define the target element to search for
+//    target = 3;
+//
+//    // Call the search function and print the result
+//    result = solution.search(nums, target);
+//    std::cout << "Index of target element: " << result << std::endl;
+//    
+//    
+//    // Create a vector of integers
+//    nums = {1};
+//
+//    // Define the target element to search for
+//    target = 0;
+//
+//    // Call the search function and print the result
+//    result = solution.search(nums, target);
+//    std::cout << "Index of target element: " << result << std::endl;
+//
+//    return 0;
+//}
 
-    // Create a vector of integers
-    std::vector<int> nums = {4, 5, 6, 7, 0, 1, 2};
-
-    // Define the target element to search for
-    int target = 0;
-
-    // Call the search function and print the result
-    int result = solution.search(nums, target);
-    std::cout << "Index of target element: " << result << std::endl;
-    
-    
-    // Create a vector of integers
-    nums = {4,5,6,7,0,1,2};
-
-    // Define the target element to search for
-    target = 3;
-
-    // Call the search function and print the result
-    result = solution.search(nums, target);
-    std::cout << "Index of target element: " << result << std::endl;
-    
-    
-    // Create a vector of integers
-    nums = {1};
-
-    // Define the target element to search for
-    target = 0;
-
-    // Call the search function and print the result
-    result = solution.search(nums, target);
-    std::cout << "Index of target element: " << result << std::endl;
-
-    return 0;
-}
