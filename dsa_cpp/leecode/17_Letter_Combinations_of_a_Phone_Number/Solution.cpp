@@ -36,33 +36,33 @@ public:
         }
     }
 };
-int main() {
-    Solution s;
-
-    // Test cases
-    vector<string> result1 = s.letterCombinations("23");
-    cout << "[";
-    for (int i = 0; i < result1.size(); i++) {
-        cout << "\"" << result1[i] << "\"";
-        if (i < result1.size() - 1) cout << ",";
-    }
-    cout << "]" << endl;
-
-    vector<string> result2 = s.letterCombinations("");
-    cout << "[";
-    for (int i = 0; i < result2.size(); i++) {
-        cout << "\"" << result2[i] << "\"";
-        if (i < result2.size() - 1) cout << ",";
-    }
-    cout << "]" << endl;
-
-    vector<string> result3 = s.letterCombinations("2");
-    cout << "[";
-    for (int i = 0; i < result3.size(); i++) {
-        cout << "\"" << result3[i] << "\"";
-        if (i < result3.size() - 1) cout << ",";
-    }
-    cout << "]" << endl;
-
-    return 0;
-}
+//int main() {
+//    Solution s;
+//
+//    // Test cases
+//    vector<string> result1 = s.letterCombinations("23");
+//    cout << "[";
+//    for (int i = 0; i < result1.size(); i++) {
+//        cout << "\"" << result1[i] << "\"";
+//        if (i < result1.size() - 1) cout << ",";
+//    }
+//    cout << "]" << endl;
+//
+//    vector<string> result2 = s.letterCombinations("");
+//    cout << "[";
+//    for (int i = 0; i < result2.size(); i++) {
+//        cout << "\"" << result2[i] << "\"";
+//        if (i < result2.size() - 1) cout << ",";
+//    }
+//    cout << "]" << endl;
+//
+//    vector<string> result3 = s.letterCombinations("2");
+//    cout << "[";
+//    for (int i = 0; i < result3.size(); i++) {
+//        cout << "\"" << result3[i] << "\"";
+//        if (i < result3.size() - 1) cout << ",";
+//    }
+//    cout << "]" << endl;
+//
+//    return 0;
+//}
