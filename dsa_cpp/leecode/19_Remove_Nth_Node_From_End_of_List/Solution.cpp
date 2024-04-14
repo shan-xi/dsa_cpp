@@ -55,39 +55,39 @@ vector<int> travelAllNodes(ListNode* root) {
     return r;
 }
 
-int main() {
-    Solution s;
-
-    // Test cases
-    ListNode* root = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
-    ListNode* res = s.removeNthFromEnd(root, 2); // [1,2,3,5]
-    vector<int> result1 = travelAllNodes(res);
-    cout << "[";
-    for (int i = 0; i < result1.size(); i++) {
-        cout << result1[i];
-        if (i < result1.size() - 1) cout << ",";
-    }
-    cout << "]" << endl;
-
-    root = new ListNode(1);
-    res = s.removeNthFromEnd(root, 1); // []
-    vector<int> result2 = travelAllNodes(res);
-    cout << "[";
-    for (int i = 0; i < result2.size(); i++) {
-        cout << result2[i];
-        if (i < result2.size() - 1) cout << ",";
-    }
-    cout << "]" << endl;
-
-    root = new ListNode(1, new ListNode(2));
-    res = s.removeNthFromEnd(root, 1); // [1]
-    vector<int> result3 = travelAllNodes(res);
-    cout << "[";
-    for (int i = 0; i < result3.size(); i++) {
-        cout << result3[i];
-        if (i < result3.size() - 1) cout << ",";
-    }
-    cout << "]" << endl;
-
-    return 0;
-}
+//int main() {
+//    Solution s;
+//
+//    // Test cases
+//    ListNode* root = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
+//    ListNode* res = s.removeNthFromEnd(root, 2); // [1,2,3,5]
+//    vector<int> result1 = travelAllNodes(res);
+//    cout << "[";
+//    for (int i = 0; i < result1.size(); i++) {
+//        cout << result1[i];
+//        if (i < result1.size() - 1) cout << ",";
+//    }
+//    cout << "]" << endl;
+//
+//    root = new ListNode(1);
+//    res = s.removeNthFromEnd(root, 1); // []
+//    vector<int> result2 = travelAllNodes(res);
+//    cout << "[";
+//    for (int i = 0; i < result2.size(); i++) {
+//        cout << result2[i];
+//        if (i < result2.size() - 1) cout << ",";
+//    }
+//    cout << "]" << endl;
+//
+//    root = new ListNode(1, new ListNode(2));
+//    res = s.removeNthFromEnd(root, 1); // [1]
+//    vector<int> result3 = travelAllNodes(res);
+//    cout << "[";
+//    for (int i = 0; i < result3.size(); i++) {
+//        cout << result3[i];
+//        if (i < result3.size() - 1) cout << ",";
+//    }
+//    cout << "]" << endl;
+//
+//    return 0;
+//}
