@@ -37,15 +37,15 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-
-    TreeNode* root = new TreeNode(2, new TreeNode(1), new TreeNode(3));
-    cout << std::boolalpha << s.isValidBST(root) << endl; // true
-
-    root = new TreeNode(5, new TreeNode(1), new TreeNode(4, new TreeNode(3), new TreeNode(6)));
-    cout << std::boolalpha << s.isValidBST(root) << endl; // false
-
-    return 0;
-}
+//int main() {
+//    Solution s;
+//
+//    TreeNode* root = new TreeNode(2, new TreeNode(1), new TreeNode(3));
+//    cout << std::boolalpha << s.isValidBST(root) << endl; // true
+//
+//    root = new TreeNode(5, new TreeNode(1), new TreeNode(4, new TreeNode(3), new TreeNode(6)));
+//    cout << std::boolalpha << s.isValidBST(root) << endl; // false
+//
+//    return 0;
+//}
 
