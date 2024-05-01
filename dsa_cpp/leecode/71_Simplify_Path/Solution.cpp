@@ -44,12 +44,12 @@ public:
         return simplifiedPath.empty() ? "/" : simplifiedPath;
     }
 };
-int main() {
-    Solution s;
-
-    cout << s.simplifyPath("/home/") << endl; // /home
-    cout << s.simplifyPath("/../") << endl; // /
-    cout << s.simplifyPath("/home//foo/") << endl; // /home/foo
-
-    return 0;
-}
+//int main() {
+//    Solution s;
+//
+//    cout << s.simplifyPath("/home/") << endl; // /home
+//    cout << s.simplifyPath("/../") << endl; // /
+//    cout << s.simplifyPath("/home//foo/") << endl; // /home/foo
+//
+//    return 0;
+//}
