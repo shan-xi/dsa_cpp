@@ -35,24 +35,24 @@ public:
     }
 };
 
-int main(){
-    Solution s;
-
-    vector<string> result1 = s.generateParenthesis(3);
-    cout << "[";
-    for (int i = 0; i < result1.size(); i++) {
-        cout << "\"" << result1[i] << "\"";
-        if (i < result1.size() - 1) cout << ",";
-    }
-    cout << "]" << endl;
-
-    vector<string> result2 = s.generateParenthesis(1);
-    cout << "[";
-    for (int i = 0; i < result2.size(); i++) {
-        cout << "\"" << result2[i] << "\"";
-        if (i < result2.size() - 1) cout << ",";
-    }
-    cout << "]" << endl;
-
-    return 0;
-}
+//int main(){
+//    Solution s;
+//
+//    vector<string> result1 = s.generateParenthesis(3);
+//    cout << "[";
+//    for (int i = 0; i < result1.size(); i++) {
+//        cout << "\"" << result1[i] << "\"";
+//        if (i < result1.size() - 1) cout << ",";
+//    }
+//    cout << "]" << endl;
+//
+//    vector<string> result2 = s.generateParenthesis(1);
+//    cout << "[";
+//    for (int i = 0; i < result2.size(); i++) {
+//        cout << "\"" << result2[i] << "\"";
+//        if (i < result2.size() - 1) cout << ",";
+//    }
+//    cout << "]" << endl;
+//
+//    return 0;
+//}
