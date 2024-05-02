@@ -27,11 +27,11 @@ public:
         return dp[m - 1][n - 1];
     }
 };
-int main(){
-    Solution s;
-    
-    cout << s.uniquePaths(3, 7) << endl; // Output: 28
-    cout << s.uniquePaths(3, 2) << endl; // Output: 3
-
-    return 0;
-}
+//int main(){
+//    Solution s;
+//    
+//    cout << s.uniquePaths(3, 7) << endl; // Output: 28
+//    cout << s.uniquePaths(3, 2) << endl; // Output: 3
+//
+//    return 0;
+//}
