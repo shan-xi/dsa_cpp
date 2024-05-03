@@ -29,31 +29,31 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    vector<int> d1 = {1, 2, 3};
-    s.nextPermutation(d1);
-    cout << "[ ";
-    for (int num : d1) {
-        cout << num << " ";
-    }
-    cout << "]" << endl; // 1 3 2
-
-    vector<int> d2 = {3, 2, 1};
-    s.nextPermutation(d2);
-    cout << "[ ";
-    for (int num : d2) {
-        cout << num << " ";
-    }
-    cout << "]" << endl; // 1 2 3
-
-    vector<int> d3 = {1, 1, 5};
-    s.nextPermutation(d3);
-    cout << "[ ";
-    for (int num : d3) {
-        cout << num << " ";
-    }
-    cout << "]" << endl; // 1 5 1
-
-    return 0;
-}
+//int main() {
+//    Solution s;
+//    vector<int> d1 = {1, 2, 3};
+//    s.nextPermutation(d1);
+//    cout << "[ ";
+//    for (int num : d1) {
+//        cout << num << " ";
+//    }
+//    cout << "]" << endl; // 1 3 2
+//
+//    vector<int> d2 = {3, 2, 1};
+//    s.nextPermutation(d2);
+//    cout << "[ ";
+//    for (int num : d2) {
+//        cout << num << " ";
+//    }
+//    cout << "]" << endl; // 1 2 3
+//
+//    vector<int> d3 = {1, 1, 5};
+//    s.nextPermutation(d3);
+//    cout << "[ ";
+//    for (int num : d3) {
+//        cout << num << " ";
+//    }
+//    cout << "]" << endl; // 1 5 1
+//
+//    return 0;
+//}
