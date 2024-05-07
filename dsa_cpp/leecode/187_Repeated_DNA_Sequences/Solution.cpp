@@ -34,19 +34,19 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    vector<string> res1 = s.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT");
-    for (const auto& seq : res1) {
-        cout << seq << " ";
-    }
-    cout << endl; // ["AAAAACCCCC","CCCCCAAAAA"]
-
-    vector<string> res2 = s.findRepeatedDnaSequences("AAAAAAAAAAAAA");
-    for (const auto& seq : res2) {
-        cout << seq << " ";
-    }
-    cout << endl; // ["AAAAAAAAAA"]
-
-    return 0;
-}
+//int main() {
+//    Solution s;
+//    vector<string> res1 = s.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT");
+//    for (const auto& seq : res1) {
+//        cout << seq << " ";
+//    }
+//    cout << endl; // ["AAAAACCCCC","CCCCCAAAAA"]
+//
+//    vector<string> res2 = s.findRepeatedDnaSequences("AAAAAAAAAAAAA");
+//    for (const auto& seq : res2) {
+//        cout << seq << " ";
+//    }
+//    cout << endl; // ["AAAAAAAAAA"]
+//
+//    return 0;
+//}
