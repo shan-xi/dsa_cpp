@@ -62,24 +62,24 @@ void printTree(TreeNode* root) {
     printTree(root->right);
 }
 
-int main() {
-    Solution s;
-
-    // Test case 1
-    vector<int> preorder1 = {3, 9, 20, 15, 7};
-    vector<int> inorder1 = {9, 3, 15, 20, 7};
-    TreeNode* root1 = s.buildTree(preorder1, inorder1);
-    cout << "Test case 1:\n";
-    printTree(root1);
-    cout << endl;
-
-    // Test case 2
-    vector<int> preorder2 = {1, 2, 3};
-    vector<int> inorder2 = {3, 2, 1};
-    TreeNode* root2 = s.buildTree(preorder2, inorder2);
-    cout << "\nTest case 2:\n";
-    printTree(root2);
-    cout << endl;
-
-    return 0;
-}
+//int main() {
+//    Solution s;
+//
+//    // Test case 1
+//    vector<int> preorder1 = {3, 9, 20, 15, 7};
+//    vector<int> inorder1 = {9, 3, 15, 20, 7};
+//    TreeNode* root1 = s.buildTree(preorder1, inorder1);
+//    cout << "Test case 1:\n";
+//    printTree(root1);
+//    cout << endl;
+//
+//    // Test case 2
+//    vector<int> preorder2 = {1, 2, 3};
+//    vector<int> inorder2 = {3, 2, 1};
+//    TreeNode* root2 = s.buildTree(preorder2, inorder2);
+//    cout << "\nTest case 2:\n";
+//    printTree(root2);
+//    cout << endl;
+//
+//    return 0;
+//}
